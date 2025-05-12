@@ -1,47 +1,62 @@
-import { FaHtml5 } from "react-icons/fa";
-import { FaCss3Alt } from "react-icons/fa";
-import { IoLogoJavascript } from "react-icons/io";
-import { SiTypescript } from "react-icons/si";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiNextdotjs } from "react-icons/si";
-import { RiTailwindCssFill } from "react-icons/ri";
+import { SiSpring } from "react-icons/si";
+import { FaJava } from "react-icons/fa";
+import { SiKubernetes } from "react-icons/si";
+import { FaAws } from "react-icons/fa";
+import { VscAzureDevops } from "react-icons/vsc";
+import { FaNodeJs } from "react-icons/fa";
+import { SiApachekafka } from "react-icons/si";
+import { TbBrandTerraform } from "react-icons/tb";
+import { FaPython } from "react-icons/fa6";
+import { FaDocker } from "react-icons/fa";
+import { GiArtificialIntelligence } from "react-icons/gi";
 import { motion } from "framer-motion";
 import { fadeIn } from "../../framerMotion/variants";
 
 const skills = [
   {
-    skill: "HTML",
-    icon: FaHtml5,
+    skill: "JAVA",
+    icon: FaJava,
   },
   {
-    skill: "CSS",
-    icon: FaCss3Alt,
+    skill: "Spring Boot",
+    icon: SiSpring,
   },
   {
-    skill: "JavaScript",
-    icon: IoLogoJavascript,
+    skill: "Kubernetes",
+    icon: SiKubernetes,
   },
   {
-    skill: "TypeScript",
-    icon: SiTypescript,
+    skill: "AWS",
+    icon: FaAws,
   },
   {
-    skill: "ReactJS",
-    icon: FaReact,
+    skill: "Azure",
+    icon: VscAzureDevops,
   },
   {
-    skill: "Redux",
-    icon: SiRedux,
+    skill: "NodeJS",
+    icon: FaNodeJs,
   },
   {
-    skill: "NextJS",
-    icon: SiNextdotjs,
+    skill: "Kafka",
+    icon: SiApachekafka,
   },
   {
-    skill: "TailwindCSS",
-    icon: RiTailwindCssFill,
+    skill: "Terraform",
+    icon: TbBrandTerraform,
   },
+  {
+    skill: "Python",
+    icon: FaPython,
+  },
+  {
+    skill: "Docker",
+    icon: FaDocker,
+  },
+  {
+    skill: "Gen AI",
+    icon: GiArtificialIntelligence,
+  }
 ];
 
 const AllSkillsSM = () => {

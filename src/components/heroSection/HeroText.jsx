@@ -11,7 +11,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="lg:text-2xl sm:text-xl  uppercase text-lightGrey "
       >
-        Java Tech Lead and People Leader
+        Innovative Java Expert | Leading Engr Teams
       </motion.h2>
       <motion.h1
         variants={fadeIn("right", 0.4)}
@@ -30,7 +30,7 @@ const HeroText = () => {
         viewport={{ once: false, amount: 0 }}
         className="text-lg mt-4"
       >
-        A Strategic Java Tech Lead and People Leader <br /> with 20+ years of
+        A Strategic Java Architect, Scalable Systems Builder, Team Mentor <br /> with 20+ years of
         experience.
       </motion.p>
     </div>
